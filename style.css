@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+    color: #444;
+    margin-bottom:20px;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+    margin-top:20px;
+}
+video {
+    width:100%;
+    max-width:300px;
+    border-radius: 20px;
+    background-color: #000;
+}
+@media screen and (max-width:600px) {
+    video{
+        width:90%;
+    }
+}
